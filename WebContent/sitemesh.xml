@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+<sitemesh>
+	<mapping path="/cadastroCelula/*" decorator="/decorators/principal.jsp" />
+	<mapping path="/index/*" decorator="/decorators/principal.jsp" />
+
+	<mapping path="/*" exclue="true" />
+
+	<content-processor>
+		<tag-rule-bundle
+			class="org.sitemesh.content.tagrules.html.DivExtractingTagRuleBundle" />
+	</content-processor>
+</sitemesh>

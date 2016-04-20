@@ -1,0 +1,12 @@
+<!-- o atributo da tag decorators "defaultdir" informa o nome da pasta onde 
+	ficarão os seus "decoradores" -->
+<decorators defaultdir="/decorators">
+	
+	<excludes>  
+<!--         <pattern>/identificarCliente/adicionaCartaoForm</pattern> -->
+    </excludes>  
+	
+	<decorator name="main" page="main.jsp">
+		<pattern>/*</pattern>
+	</decorator>
+</decorators>
